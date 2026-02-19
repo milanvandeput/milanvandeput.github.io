@@ -17,10 +17,21 @@ for i in range(10):
     i=3
 ```
 <details>
-  <summary>Klik hier om uit te klappen</summary>
+  <summary>Klik hier om uit te klappen hee</summary>
   
 Dit is de inhoud die verborgen is tot je erop klikt.
+
 Je kan hier Markdown gebruiken.
+
+```python
+leeftijd = 16
+naam = "Robbe"
+temperatuur = 23.24
+for i in range(10):
+  print(i+1)
+  if i==2:
+    i=3
+```
 </details>
 
 # Voorbeeldtesten
