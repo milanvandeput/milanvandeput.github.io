@@ -16,15 +16,8 @@ for i in range(10):
     i=3
 ```
 <details>
-  <summary>Klik hier om uit te klappen hee</summary>
+  <summary>voorbeeldtesten</summary>
   
-Dit is de inhoud die verborgen is tot je erop klikt.
-
-Je kan hier Markdown gebruiken.
-
-</details>
-
-# Voorbeeldtesten
 
 | Oproepen functie          | Uitvoer |
 |---------------------------|---------|
@@ -37,3 +30,5 @@ Je kan hier Markdown gebruiken.
 | Oproepen functie          | Uitvoer |
 |---------------------------|---------|
 | som_rechthoek(2,3)        | 16     |
+
+</details>
