@@ -55,15 +55,15 @@
 
     <!-- TOP BAR -->
     <nav class="topbar">
-        {{ 'les1/'}}les1</a>
-        {{ 'les2/'}}les2</a>
+        {{ 'les1/' }}les1</a>
+        {{ 'les2/' }}les2</a>
     </nav>
 
     <div class="main">
 
         <!-- SIDEBAR -->
         <div class="sidebar">
-            <h3>In deze sectie</h3>
+            <h3>In deze les</h3>
             <ul>
                 {% assign current_dir = page.url | split: '/' | slice: 1, 1 | first %}
                 {% for p in site.pages %}
