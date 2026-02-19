@@ -62,43 +62,21 @@
 
     <div class="main">
 
-        <!-- SIDEBAR -->
+        <!-- SIDEBAR --> 
         <div class="sidebar">
-          <h3>In deze les</h3>
-          <ul>
-            {% assign current_dir = page.url | split: '/' | slice: 1, 1 | first %}
-            {% assign siblings = site.pages | where_exp: 'p', 'p.url != page.url' %}
-            {% assign siblings = siblings | where_exp: 'p', '(p.url | split: "/" | slice: 1, 1 | first) == current_dir' %}
-            {% assign index_in_section = '' %}
-            {% for p in siblings %}
-              {% assign p_dir = p.url | split: '/' | slice: 1, 1 | first %}
-              {% if p_dir == current_dir %}
-                {% assign last = p.url | split: '/' | last %}
-                {% if p.url == '/' | append: current_dir | append: '/' or last == 'index.html' %}
-                  {% assign index_in_section = p %}
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-        
-            {% if index_in_section %}
-              <li><a href="{{ index_in_section.url | relative_url }}">{{ index_in_section.title | default: 'Overzicht' }}</a></li>
-            {% endif %}
-            {% assign ordered = siblings | where_exp: 'p', 'p.order' | sort: 'order' %}
-            {% assign unordered = siblings | where_exp: 'p', 'p.order == nil' | sort: 'title' %}
-        
-            {% for p in ordered %}
-              {% unless p.url == index_in_section.url %}
-                <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
-              {% endunless %}
-            {% endfor %}
-        
-            {% for p in unordered %}
-              {% unless p.url == index_in_section.url %}
-                <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
-              {% endunless %}
-            {% endfor %}
-          </ul>
+            <h3>In deze sectie</h3>
+            <ul>
+                {% assign current_dir = page.url | split: '/' | slice: 1, 1 | first %}
+                {% for p in site.pages %}
+                    {% assign dir = p.url | split: '/' | slice: 1, 1 | first %}
+                    {% if dir == current_dir and p.url != page.url %}
+                        <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         </div>
+
+
 
         <!-- PAGE CONTENT -->
         <div class="content">
