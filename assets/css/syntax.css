@@ -17,21 +17,21 @@ pre.highlight {
   position: relative;
 }
 
-/* Één visuale regel per Rouge-regel */
-.highlight code > span {   /* let op: '>' i.p.v. '&gt;' */
+
+ghlight code > span.line {
   display: block;
 }
 
-/* Lijnnummers (Kramdown+Rouge) */
-.highlight .lineno {
-  color: #8a8f98;
-  display: inline-block;
-  width: 35px;
-  margin-left: -40px;
-  padding-right: 10px;
-  text-align: right;
-  user-select: none;
+/* Behoud correcte weergave/inspringing */
+.highlight, pre.highlight, .highlight pre, .highlight code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.45;
+  white-space: pre;    /* respecteer spaties/inspringing */
+  overflow-x: auto;
 }
+
+
 
 /* Kleuren (GitHub-achtig) */
 .highlight .c, .highlight .cm, .highlight .c1 { color: #6a737d; font-style: italic; }  /* comments */
