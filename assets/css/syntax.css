@@ -1,89 +1,46 @@
-/* Container zoals Rouge/Jekyll die maakt */
+/* Container en basisstijl */
 .highlight, pre.highlight, .highlight pre, .highlight code {
-  background-color: #f8f8f8;     /* jouw kleur */
-  border: 1px solid #ccc;        /* jouw rand */
-  border-radius: 4px;            /* jouw radius */
-  padding: 10px;
-  overflow: auto;
-  color: #24292f;                /* basistekst */
+  background: #f8f8f8;
+  color: #24292f;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  line-height: 1.5;
   font-size: 14px;
+  line-height: 1.45;
+  overflow-x: auto;
+  white-space: pre;        /* respecteer spaties/inspringing */
 }
 
-/* Comments (was .syntax-highlight .comment) */
-.highlight .c,
-.highlight .cm,
-.highlight .c1 {
-  color: #6a737d;
-  font-style: italic;
-}
-
-/* Keywords (was .syntax-highlight .keyword) */
-.highlight .k,
-.highlight .kc,
-.highlight .kd,
-.highlight .kn,
-.highlight .kp,
-.highlight .kr,
-.highlight .kt {
-  color: #005cc5;
-  font-weight: bold;
-}
-
-/* Strings (was .syntax-highlight .string) */
-.highlight .s,
-.highlight .sb,
-.highlight .sc,
-.highlight .sd,
-.highlight .s2,
-.highlight .se,
-.highlight .sh,
-.highlight .si,
-.highlight .sx,
-.highlight .sr,
-.highlight .ss {
-  color: #e3116c;
-}
-
-/* Veelgebruikte extra’s */
-.highlight .nf { color: #6f42c1; } /* function name */
-.highlight .nb { color: #24292f; } /* builtin */
-.highlight .o  { color: #005cc5; } /* operator */
-.highlight .m  { color: #005cc5; } /* numbers */
-
-
-/* FORCEER CORRECTE CODEBLOK-WEERGAVE */
-.highlight pre,
-.highlight code,
-pre.highlight,
-pre.highlight code {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
-    font-size: 15px;
-    line-height: 1.4;
-    white-space: pre;              /* heel belangrijk */
-    word-break: normal;
-    overflow-x: auto;
-    display: block;
-    padding: 10px;
-}
-
-/* Rouge maakt spans binnen code; die moeten per regel blijven */
-.highlight code > span {
-    display: block;                /* elke regel netjes onder elkaar */
-}
-
-/* Lijnnummers */
+/* Geef alleen het buitenste <pre> een rand/padding */
 pre.highlight {
-    padding-left: 50px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px 10px 10px 50px;  /* links ruimte voor regelnummers */
+  position: relative;
 }
 
-.highlight .lineno {
-    color: #8a8f98;
-    display: inline-block;
-    width: 35px;
-    margin-left: -45px;
-    padding-right: 10px;
-    text-align: right;
-    user-select: none;
+/* Één visuale regel per Rouge-regel */
+.highlight code > span {   /* let op: '>' i.p.v. '&gt;' */
+  display: block;
 }
+
+/* Lijnnummers (Kramdown+Rouge) */
+.highlight .lineno {
+  color: #8a8f98;
+  display: inline-block;
+  width: 35px;
+  margin-left: -40px;
+  padding-right: 10px;
+  text-align: right;
+  user-select: none;
+}
+
+/* Kleuren (GitHub-achtig) */
+.highlight .c, .highlight .cm, .highlight .c1 { color: #6a737d; font-style: italic; }  /* comments */
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kn,
+.highlight .kp, .highlight .kr, .highlight .kt { color: #005cc5; font-weight: 600; }   /* keywords */
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2,
+.highlight .se, .highlight .sh, .highlight .si, .highlight .sx,
+.highlight .sr, .highlight .ss { color: #e3116c; }                                     /* strings */
+.highlight .nf { color: #6f42c1; }   /* function */
+.highlight .nb { color: #24292f; }   /* builtin */
+.highlight .o  { color: #005cc5; }   /* operator */
+.highlight .m  { color: #005cc5; }   /* numbers */
