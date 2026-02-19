@@ -1,6 +1,6 @@
 ---
 layout: default
-title: les 1
+title: les1
 ---
 
 # Welkom!
