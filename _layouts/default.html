@@ -73,15 +73,17 @@
             {% assign current_dir = page.url | split: '/' | slice: 1, 1 | first %}
         
             {% comment %}
-              Verzamel alle pagina's in dezelfde sectie
+              Filter eerst ALLE pagina's, en doe daarna directory-filtering apart
+              (GitHub Pages Liquid kan geen pipes binnen where_exp-string aan)
             {% endcomment %}
-            {% assign siblings = site.pages | where_exp: 'p', '(p.url | split: "/" | slice: 1, 1 | first) == current_dir' %}
+            {% assign all_pages = site.pages %}
         
-            {% comment %}
-              Toon ALLE pagina's, inclusief de huidige, geen sortering
-            {% endcomment %}
-            {% for p in siblings %}
-              <li>{{ p.url | relative_url }}{{ p.title }}</a></li>
+            {% for p in all_pages %}
+              {% assign p_dir = p.url | split: '/' | slice: 1, 1 | first %}
+        
+              {% if p_dir == current_dir %}
+                <li>{{ p.url | relative_url }}{{ p.title }}</a></li>
+              {% endif %}
             {% endfor %}
         
           </ul>
