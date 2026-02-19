@@ -49,36 +49,9 @@ nav.topbar {
   background: #b0cdff;
   color: white;
   padding: 10px 15px;
-
-  /* Nieuw: hou logo en menu op één lijn in de balk */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
 }
 
-nav.topbar .brand {               /* jouw link die het logo bevat */
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-  gap: 10px;
-}
 
-nav.topbar img.brand-logo {
-  height: 16px;                   /* pas grootte aan naar wens */
-  width: auto;
-  display: block;
-}
-
-nav.topbar .menu a {
-  color: white;
-  margin-right: 20px;
-  text-decoration: none;
-  font-weight: bold;
-  white-space: nowrap;
-}
-nav.topbar .menu a:last-child { margin-right: 0; }
 
 .topbar-inner {
   display: flex;
