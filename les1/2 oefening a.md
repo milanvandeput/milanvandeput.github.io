@@ -17,7 +17,10 @@ for i in range(10):
 ```
 <details>
   <summary>voorbeeldtesten</summary>
-  
+  ehehehe
+</details>
+
+## Voorbeeldtesten
 
 | Oproepen functie          | Uitvoer |
 |---------------------------|---------|
@@ -31,4 +34,4 @@ for i in range(10):
 |---------------------------|---------|
 | som_rechthoek(2,3)        | 16     |
 
-</details>
+
