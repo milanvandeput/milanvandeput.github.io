@@ -75,26 +75,11 @@ nav.topbar {
     object-fit: contain;
 }
 
-.brand-title {
-    font-weight: bold;
-}
 
-.menu a {
-    color: white;
-    margin-right: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    white-space: nowrap;
-}
-
-.menu a:last-child { margin-right: 0; }
+.brand-title { font-weight: bold; }
 
 @media (max-width: 640px) {
-    .menu {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px 16px;
-    }
-    .brand-title { display: none; } /* optioneel: alleen logo op klein scherm */
+  .brand-title { display: none; }
 }
+
 ``
