@@ -51,4 +51,11 @@ nav.topbar {
     padding: 10px 15px; /* iets compacter */
 }
 
-
+.topbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: 1100px;   /* optioneel centreren */
+  margin: 0 auto;      /* optioneel centreren */
+}
