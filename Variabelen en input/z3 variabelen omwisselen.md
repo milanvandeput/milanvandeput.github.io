@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Oefening: variabelen omwisselen
+title: Oefening variabelen omwisselen
 ---
 
 # Opdracht
@@ -18,3 +18,4 @@ Controleer je code door de variabelen te printen met *print(a)* en *print(b)*.
 # Uitdaging
 
 Kan je hetzelfde doen zonder een derde variabele te gebruiken?
+
