@@ -59,3 +59,8 @@ nav.topbar {
   max-width: 1100px;   /* optioneel centreren */
   margin: 0 auto;      /* optioneel centreren */
 }
+
+.brand-logo {
+    height: 24px;   /* maak kleiner: bv. 20px, 24px, 28px */
+    width: auto;
+}
