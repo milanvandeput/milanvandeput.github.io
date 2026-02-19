@@ -62,32 +62,20 @@
 
     <div class="main">
 
-        <!-- SIDEBAR --> 
-        <div class="sidebar">
-          <h3>In deze sectie</h3>
-          <ul>
-        
-            {% comment %}
-              Bepaal de huidige sectie (map)
-            {% endcomment %}
+    <!-- SIDEBAR -->      
+    <div class="sidebar">
+        <h3>In deze sectie</h3>
+        <ul>
             {% assign current_dir = page.url | split: '/' | slice: 1, 1 | first %}
-        
-            {% comment %}
-              Filter eerst ALLE pagina's, en doe daarna directory-filtering apart
-              (GitHub Pages Liquid kan geen pipes binnen where_exp-string aan)
-            {% endcomment %}
-            {% assign all_pages = site.pages %}
-        
-            {% for p in all_pages %}
-              {% assign p_dir = p.url | split: '/' | slice: 1, 1 | first %}
-        
-              {% if p_dir == current_dir %}
-                <li>{{ p.url | relative_url }}{{ p.title }}</a></li>
-              {% endif %}
+            {% for p in site.pages %}
+                {% assign dir = p.url | split: '/' | slice: 1, 1 | first %}
+                {% if dir == current_dir and p.url != page.url %}
+                    <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                {% endif %}
             {% endfor %}
-        
-          </ul>
-        </div>
+        </ul>
+    </div>
+
 
 
 
