@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+        nav.topbar {
+            background: #222;
+            color: white;
+            padding: 15px;
+        }
+        nav.topbar a {
+            color: white;
+            margin-right: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .content {
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <nav class="topbar">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/les1/' | relative_url }}">Les 1</a>
+        <a href="{{ '/les2/' | relative_url }}">Les 2</a>
+    </nav>
+
+    <!-- PAGINA INHOUD -->
+    <div class="content">
+        {{ content }}
+    </div>
+
+</body>
+</html>
