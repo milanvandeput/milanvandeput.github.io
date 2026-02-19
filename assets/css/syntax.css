@@ -44,3 +44,57 @@ ghlight code > span.line {
 .highlight .nb { color: #24292f; }   /* builtin */
 .highlight .o  { color: #005cc5; }   /* operator */
 .highlight .m  { color: #005cc5; }   /* numbers */
+
+nav.topbar {
+    background: #b0cdff;
+    color: white;
+    padding: 10px 15px; /* iets compacter */
+}
+
+.topbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    max-width: 1100px; /* optioneel: centreren */
+    margin: 0 auto;    /* optioneel: centreren */
+}
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.brand-logo {
+    height: 32px;     /* pas aan naar wens (bijv. 28–40px) */
+    width: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.brand-title {
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.menu a:last-child { margin-right: 0; }
+
+@media (max-width: 640px) {
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 16px;
+    }
+    .brand-title { display: none; } /* optioneel: alleen logo op klein scherm */
+}
+``
