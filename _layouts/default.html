@@ -55,24 +55,6 @@
           position: relative;
         }
         
-        pre.highlight code {
-          counter-reset: line;
-        }
-        
-        pre.highlight code span {
-          counter-increment: line;
-        }
-        
-        pre.highlight code span::before {
-          content: counter(line);
-          display: inline-block;
-          width: 40px;
-          margin-left: -50px;
-          padding-right: 10px;
-          text-align: right;
-          color: #888;
-          user-select: none;
-        }
     </style>
 </head>
 <body>
