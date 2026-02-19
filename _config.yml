@@ -1,4 +1,6 @@
-theme: minima
+theme: null
+
+title: CONFIGTEST
 
 markdown: kramdown
 highlighter: rouge
