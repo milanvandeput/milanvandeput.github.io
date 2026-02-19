@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; }
+        nav {
+            background: #222;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="{{ "/" | relative_url }}">Home</a>
+        <a href="{{ "/les1.html" | relative_url }}">les1</a>
+        <a href="{{ "/les2.html" | relative_url }}">les2</a>
+    </nav>
+
+    <div class="content">
+        {{ content }}
+   >
+
+</body>
+</html>
