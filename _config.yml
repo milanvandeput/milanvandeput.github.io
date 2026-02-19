@@ -1,6 +1,5 @@
 theme: null
-logo: /assets/image/logo.png
-site_title: Home
+
 
 markdown: kramdown
 highlighter: rouge
