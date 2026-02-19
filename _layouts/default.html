@@ -66,10 +66,23 @@
         <div class="sidebar">
           <h3>In deze sectie</h3>
           <ul>
+        
+            {% comment %}
+              Bepaal de huidige sectie (map) door de URL te bekijken.
+              Bijvoorbeeld:
+              /projecten/ai/ → "projecten"
+            {% endcomment %}
             {% assign current_dir = page.url | split: '/' | slice: 1, 1 | first %}
-          
+        
+            {% comment %}
+              Selecteer alle pagina's waarvan de eerste map gelijk is aan de huidige sectie.
+              Dit toont ALLE pagina's in de map, inclusief de huidige pagina.
+            {% endcomment %}
             {% assign siblings = site.pages | where_exp: 'p', '(p.url | split: "/" | slice: 1, 1 | first) == current_dir' %}
         
+            {% comment %}
+              Toon alles in originele Jekyll-volgorde (geen sortering).
+            {% endcomment %}
             {% for p in siblings %}
               <li>{{ p.url | relative_url }}{{ p.title }}</a></li>
             {% endfor %}
