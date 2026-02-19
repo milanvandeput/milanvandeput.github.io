@@ -1,37 +1,65 @@
-.syntax-highlight {
-    background-color: #f8f8f8;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-    overflow: auto;
+/* Container zoals Rouge/Jekyll die maakt */
+.highlight, pre.highlight, .highlight pre, .highlight code {
+  background-color: #f8f8f8;     /* jouw kleur */
+  border: 1px solid #ccc;        /* jouw rand */
+  border-radius: 4px;            /* jouw radius */
+  padding: 10px;
+  overflow: auto;
+  color: #24292f;                /* basistekst */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  line-height: 1.5;
+  font-size: 14px;
 }
 
-.syntax-highlight .keyword {
-    color: #005cc5;
-    font-weight: bold;
+/* Comments (was .syntax-highlight .comment) */
+.highlight .c,
+.highlight .cm,
+.highlight .c1 {
+  color: #6a737d;
+  font-style: italic;
 }
 
-.syntax-highlight .string {
-    color: #e3116c;
+/* Keywords (was .syntax-highlight .keyword) */
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt {
+  color: #005cc5;
+  font-weight: bold;
 }
 
-.syntax-highlight .comment {
-    color: #6a737d;
-    font-style: italic;
+/* Strings (was .syntax-highlight .string) */
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .sr,
+.highlight .ss {
+  color: #e3116c;
 }
 
-.details {
-    margin: 10px 0;
-}
+/* Veelgebruikte extra’s */
+.highlight .nf { color: #6f42c1; } /* function name */
+.highlight .nb { color: #24292f; } /* builtin */
+.highlight .o  { color: #005cc5; } /* operator */
+.highlight .m  { color: #005cc5; } /* numbers */
 
-.summary {
-    padding: 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.summary:hover {
-    background-color: #e2e2e2;
+/* Lijnnummers (werkt als je in _config.yml line_numbers aan hebt) */
+pre.highlight { padding-left: 50px; position: relative; }
+.highlight .lineno {
+  color: #8a8f98;
+  display: inline-block;
+  width: 2.5em;
+  margin-left: -2.5em;
+  padding-right: .75em;
+  text-align: right;
+  user-select: none;
 }
