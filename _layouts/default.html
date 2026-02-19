@@ -50,7 +50,7 @@
             flex: 1;
             padding: 30px;
         }
-        /* Mooie moderne tabel */
+        /* Mooie tabel zonder codeblokken te breken */
         table {
           border-collapse: collapse;
           width: 100%;
@@ -58,7 +58,8 @@
           font-size: 16px;
         }
         
-        table th, table td {
+        table :not(code) th,
+        table :not(code) td {
           border: 1px solid #ddd;
           padding: 12px 16px;
           text-align: left;
