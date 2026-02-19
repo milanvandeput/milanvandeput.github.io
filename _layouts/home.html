@@ -27,17 +27,16 @@
 
     <!-- TOP BAR -->
     <nav class="topbar">
-      <div class="topbar-inner">   
-        <a class="brand" href="{{ '/' | relative_url }}">
+        <div class="topbar-inner">
+            {{ '{%' }} comment {{ '%}' }} Brand met logo en link naar home {{ '{%' }} endcomment {{ '%}' }}
+            <a class="brand" href="{{ '/' | relative_url }}">
               <img
                 class="brand-logo"
-                src="{{ site.logo | default: '/assets/images/logo.png' | relative_url }}"
-                alt="Site logo"
-                decoding="async"
-                loading="eager"
-              >
+                src="{{ site.logo | relative_url }}"
+                alt="Site logo">
               <span class="brand-title">Home</span>
             </a>
+            
         <div class="menu">
           <a href="{{ '/Variabelen en input/' | relative_url }}">Variabelen en input</a>
           <a href="{{ '/Keuzes/' | relative_url }}">Keuzes</a>
