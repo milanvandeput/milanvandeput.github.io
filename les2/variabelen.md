@@ -18,6 +18,8 @@ Een variabele aanmaken in Python is heel eenvoudig. Hier zie je enkele voorbeeld
 leeftijd = 16
 naam = "Robbe"
 temperatuur = 23.24
+if a==b:
+print("c")
 ```
 
 Je kan zoveel variabelen aanmaken als je wilt, zolang je ze **verschillende** namen geeft.
