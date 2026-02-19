@@ -52,9 +52,19 @@
 .highlight .s2 { color: #d14; } /* Literal.String.Double */
 .highlight .se { color: #d14; } /* Literal.String.Escape */
 .highlight .sh { color: #d14; } /* Literal.String.Heredoc */
-.highlight .lineno {
-  color: #bbb;
-  margin-right: 10px;
+details {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-left: 4px solid #007bff;
+}
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #007bff;
+}
+summary:hover {
+  text-decoration: underline;
 }
 .highlight .si { color: #d14; } /* Literal.String.Interpol */
 .highlight .sx { color: #d14; } /* Literal.String.Other */
