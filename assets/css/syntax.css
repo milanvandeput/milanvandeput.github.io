@@ -52,14 +52,38 @@
 .highlight .o  { color: #005cc5; } /* operator */
 .highlight .m  { color: #005cc5; } /* numbers */
 
-/* Lijnnummers (werkt als je in _config.yml line_numbers aan hebt) */
-pre.highlight { padding-left: 50px; position: relative; }
+
+/* FORCEER CORRECTE CODEBLOK-WEERGAVE */
+.highlight pre,
+.highlight code,
+pre.highlight,
+pre.highlight code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    font-size: 15px;
+    line-height: 1.4;
+    white-space: pre;              /* heel belangrijk */
+    word-break: normal;
+    overflow-x: auto;
+    display: block;
+    padding: 10px;
+}
+
+/* Rouge maakt spans binnen code; die moeten per regel blijven */
+.highlight code > span {
+    display: block;                /* elke regel netjes onder elkaar */
+}
+
+/* Lijnnummers */
+pre.highlight {
+    padding-left: 50px;
+}
+
 .highlight .lineno {
-  color: #8a8f98;
-  display: inline-block;
-  width: 2.5em;
-  margin-left: -2.5em;
-  padding-right: .75em;
-  text-align: right;
-  user-select: none;
+    color: #8a8f98;
+    display: inline-block;
+    width: 35px;
+    margin-left: -45px;
+    padding-right: 10px;
+    text-align: right;
+    user-select: none;
 }
