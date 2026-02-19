@@ -1,4 +1,5 @@
 theme: null
+logo: /assets/image/sancta logo.png
 
 markdown: kramdown
 highlighter: rouge
@@ -10,4 +11,4 @@ kramdown:
     block:
       line_numbers: false
 
-title: CONFIGTEST
+
