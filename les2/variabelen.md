@@ -19,4 +19,5 @@ leeftijd = 16
 naam = "Robbe"
 temperatuur = 23.24
 ```
+
 Je kan zoveel variabelen aanmaken als je wilt, zolang je ze **verschillende** namen geeft.
