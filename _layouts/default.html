@@ -67,26 +67,10 @@
           <h3>In deze les</h3>
           <ul>
             {% assign current_dir = page.url | split: '/' | slice: 1, 1 | first %}
-        
-            {%- comment -%}
-            Alle pagina’s in dezelfde sectie (map) verzamelen
-            {%- endcomment -%}
             {% assign siblings = site.pages | where_exp: 'p', 'p.url | split: "/" | slice: 1, 1 | first == current_dir' %}
-        
-            {%- comment -%}
-            Huidige pagina uitsluiten
-            {%- endcomment -%}
             {% assign siblings = siblings | where_exp: 'p', 'p.url != page.url' %}
-        
-            {%- comment -%}
-            Met order en zonder order splitsen
-            {%- endcomment -%}
             {% assign ordered   = siblings | where_exp: 'p', 'p.order' | sort: 'order' %}
             {% assign unordered = siblings | where_exp: 'p', 'p.order == nil' | sort: 'title' %}
-        
-            {%- comment -%}
-            Eerst de geordende, dan de rest
-            {%- endcomment -%}
             {% for p in ordered %}
               <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
             {% endfor %}
