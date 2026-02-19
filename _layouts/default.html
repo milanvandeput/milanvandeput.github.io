@@ -49,6 +49,31 @@
             flex: 1;
             padding: 30px;
         }
+        /* Line numbers for code blocks */
+        pre.highlight {
+          padding-left: 50px; /* ruimte voor de nummering */
+          position: relative;
+        }
+        
+        pre.highlight code {
+          counter-reset: linenumber;
+        }
+        
+        pre.highlight code > span {
+          display: block;
+          counter-increment: linenumber;
+        }
+        
+        pre.highlight code > span::before {
+          content: counter(linenumber);
+          display: inline-block;
+          width: 35px;
+          margin-left: -45px;
+          padding-right: 10px;
+          text-align: right;
+          color: #888;
+          user-select: none;
+        }
     </style>
 </head>
 <body>
