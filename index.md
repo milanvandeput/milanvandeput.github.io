@@ -5,4 +5,4 @@ title: Home
 # Welkom!
 Dit is mijn homepage.
 
-ga naar: les1.html
+Ga naar de [les 1](les1.html) pagina.
