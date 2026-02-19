@@ -13,6 +13,7 @@ Een variabele kan je vergelijken met een doos met een etiket *(=naam)* en een in
 ![Variabele](/assets/images/variabele.png)
 
 Een variabele aanmaken in Python is heel eenvoudig. Hier zie je enkele voorbeelden:
+
 ```python
 leeftijd = 16
 naam = "Robbe"
