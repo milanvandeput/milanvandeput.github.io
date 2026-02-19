@@ -55,8 +55,9 @@
 
     <!-- TOP BAR -->
     <nav class="topbar">
-        {{ 'les1/' }}les1</a>
-        {{ 'les2/' }}les2</a>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/les1/' | relative_url }}">Les 1</a>
+        <a href="{{ '/les2/' | relative_url }}">Les 2</a>
     </nav>
 
     <div class="main">
