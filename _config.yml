@@ -1,5 +1,6 @@
 theme: null
 logo: /assets/image/sanctalogo.png
+site_title: Home
 
 markdown: kramdown
 highlighter: rouge
