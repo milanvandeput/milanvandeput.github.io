@@ -1,4 +1,5 @@
 ---
+layout: default
 title: les 1
 ---
 
