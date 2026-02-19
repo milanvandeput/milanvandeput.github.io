@@ -36,14 +36,14 @@ for i in range(10):
 
 # Voorbeeldtesten
 
-| Oproepen functie  | Uitvoer |
-| ------------- | ------------- |
-|oppervlakte_rechthoek(2,3) | 6 |
+| Oproepen functie          | Uitvoer |
+|---------------------------|---------|
+| oppervlakte_rechthoek(2,3) | 6      |
 
-| Oproepen functie  | Uitvoer |
-| ------------- | ------------- |
-|omtrek_rechthoek(2,3) | 10 |
+| Oproepen functie          | Uitvoer |
+|---------------------------|---------|
+| omtrek_rechthoek(2,3)     | 10     |
 
-| Oproepen functie  | Uitvoer |
-| ------------- | ------------- |
-|som_rechthoek(2,3) | 16 |
+| Oproepen functie          | Uitvoer |
+|---------------------------|---------|
+| som_rechthoek(2,3)        | 16     |
