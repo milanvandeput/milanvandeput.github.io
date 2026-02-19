@@ -49,26 +49,27 @@
             flex: 1;
             padding: 30px;
         }
-        /* Line numbers for code blocks */
+        /* Line numbering for Rouge + CommonMark */
         pre.highlight {
-          padding-left: 50px; /* ruimte voor de nummering */
+          padding-left: 50px;
           position: relative;
         }
         
         pre.highlight code {
-          counter-reset: linenumber;
-        }
-        
-        pre.highlight code > span {
+          counter-reset: line;
           display: block;
-          counter-increment: linenumber;
         }
         
-        pre.highlight code > span::before {
-          content: counter(linenumber);
+        pre.highlight code span {
+          display: block;               /* Belangrijk: dit forceert 1 regel per span */
+          counter-increment: line;
+        }
+        
+        pre.highlight code span::before {
+          content: counter(line);
           display: inline-block;
-          width: 35px;
-          margin-left: -45px;
+          width: 40px;
+          margin-left: -50px;
           padding-right: 10px;
           text-align: right;
           color: #888;
