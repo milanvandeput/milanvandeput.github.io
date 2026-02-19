@@ -61,6 +61,6 @@ nav.topbar {
 }
 
 .brand-logo {
-    height: 24px;   /* maak kleiner: bv. 20px, 24px, 28px */
+    height: 16px;   /* maak kleiner: bv. 20px, 24px, 28px */
     width: auto;
 }
