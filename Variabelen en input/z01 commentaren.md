@@ -10,7 +10,6 @@ Commentaren zijn lijnen code of tekst die niet uitgevoerd zullen worden door de 
 Je kan commentaren toevoegen in je code doormiddel van het symbool #
 
 # Opdracht
-<span style="background-color: #b0cdff;">Voer de onderstaande code uit in de trinket. Voorspel wat de uitvoer zal zijn.</span>
 
 <div style="
     background-color: #b0cdff;
@@ -29,6 +28,20 @@ print("Deze tekst wil ik niet laten printen.")
 
 
 # Opdracht
-<span style="background-color: #b0cdff;">Pas de code aan zodat de juiste tekst verschijnt.</span>
+<div style="
+    background-color: #b0cdff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+">
+Pas de code aan zodat de juiste tekst verschijnt.
+</div>
 
-<span style="background-color: #daabff;">Tip: gebruik doorheen deze cursus zoveel mogelijk commentaren om je eigen code uit te leggen. Zo verbeter je de leesbaarheid van je code voor anderen en jezelf!</span>
+
+<div style="
+    background-color: #daabff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+">Tip: gebruik doorheen deze cursus zoveel mogelijk commentaren om je eigen code uit te leggen. Zo verbeter je de leesbaarheid van je code voor anderen en jezelf!
+</div>
