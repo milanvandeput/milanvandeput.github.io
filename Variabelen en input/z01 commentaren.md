@@ -9,7 +9,7 @@ Commentaren zijn lijnen code of tekst die niet uitgevoerd zullen worden door de 
 
 Je kan commentaren toevoegen in je code doormiddel van het symbool #
 
-### Opdracht
+## Opdracht
 
 <div style="
     background-color: #b0cdff;
@@ -27,7 +27,7 @@ print("Deze tekst wil ik niet laten printen.")
 ```
 
 
-### Opdracht
+## Opdracht
 <div style="
     background-color: #b0cdff;
     padding: 15px;
