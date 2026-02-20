@@ -4,4 +4,6 @@ title: Home
 ---
 
 # Welkom
-Dit is de homepage.
+(Deze website is nog in opbouw)
+
+Dit is de cursus informaticawetenschappen van Sancta-Maria Leuven, gemaakt door Milan Vandeput (milanvandeput@sml.be)
