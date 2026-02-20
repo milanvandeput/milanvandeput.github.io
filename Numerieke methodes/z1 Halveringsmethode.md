@@ -29,5 +29,38 @@ Dat betekent dat hoe langer we deze stappen blijven **herhalen**, hoe dichter we
 
 Deze methode zal echter **nooit exact** op $\sqrt{2}$ uitkomen. Maar dat is ook niet de bedoeling van een numerieke methode. We zullen na een tijd het resultaat **afronden** wanneer we een **nauwkeurigheid** bereiken die hoog genoeg ligt.
 
-Opdracht...
+## Opdracht
+
+<div style="
+    background-color: #b0cdff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+">
+Schrijf een programma dat de halveringsmethode kan uitvoeren. Je gebruikt de functie en startwaarden uit het voorbeeld hierboven. Laat de methode 100 keer herhalen.
+</div>
+<div style="
+    background-color: #daabff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+">ℹ️Definiëer een functie f(x) om de functiewaarden uit te rekenen.
+</div>
+<div style="
+    background-color: #daabff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+">ℹ️Definiëer een functie halvering(a,b) die vanuit een gegeven A en B de nieuwe A en B bepaalt en teruggeeft als tuple (A,B).
+</div>
+
+```python
+def halvering(a,b):
+    ...
+    return(anieuw,bnieuw)
+```
+
+## Afronden en nauwkeurigheid
+
+... nog aanvullen
 
