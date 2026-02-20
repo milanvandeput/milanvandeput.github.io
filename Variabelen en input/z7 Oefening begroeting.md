@@ -3,6 +3,8 @@ layout: default
 title: Oefening begroeting
 ---
 
+# Begroeting
+
 Bekijk de volgende code en voer hem uit.
 
 ```python

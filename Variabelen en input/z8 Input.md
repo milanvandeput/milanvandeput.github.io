@@ -3,6 +3,8 @@ layout: default
 title: Input
 ---
 
+# Input
+
 De functie **input()** wordt gebruikt om een invoer aan de gebruiker te vragen. Tussen de haakjes kan je een vraag noteren die verschijnt. De waarde die bij de input wordt ingevoerd, sla je op in een variabele.
 
 Test het eens uit met onderstaande code:

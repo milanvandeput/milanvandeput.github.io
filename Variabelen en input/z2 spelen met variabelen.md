@@ -3,6 +3,8 @@ layout: default
 title: spelen met variabelen
 ---
 
+# Spelen met variabelen
+
 De waarde van een variabele aanpassen of kopiëren naar een nieuwe variabele kan je allemaal eenvoudig doen met het = teken. Maar je moet wel goed in gedachten houden welke variabele op welk moment welke waarde bevat.
 
 ## Opdracht

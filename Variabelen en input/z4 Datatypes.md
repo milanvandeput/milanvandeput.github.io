@@ -3,6 +3,8 @@ layout: default
 title: Datatypes
 ---
 
+# Datatypes
+
 Variabelen zijn steeds van een bepaald **datatype**. We leren voorlopig drie datatypes
 
 - **Strings** *(str)* zijn woorden of teksten. Je maakt ze door " " te gebruiken

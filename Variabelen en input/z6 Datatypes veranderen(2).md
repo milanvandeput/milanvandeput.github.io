@@ -3,6 +3,8 @@ layout: default
 title: Datatypes veranderen (2)
 ---
 
+# Datatypes veranderen (2)
+
 Voer de volgende code uit:
 ```python
 var1 = "vier"

@@ -3,6 +3,8 @@ layout: default
 title: Oefening temperatuur
 ---
 
+# Temperatuur
+
 De formule voor het verband tussen een temperatuur *C* in graden Celsius en een temperatuur *F* in graden Fahrenheit is:
 
 $$F=\frac{9}{5}C+32$$

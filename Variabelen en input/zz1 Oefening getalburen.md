@@ -3,6 +3,8 @@ layout: default
 title: Oefening getalburen
 ---
 
+# Getalburen
+
 ## Opdracht
 <div style="
     background-color: #b0cdff;

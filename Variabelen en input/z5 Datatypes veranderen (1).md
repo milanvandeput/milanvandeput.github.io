@@ -3,6 +3,8 @@ layout: default
 title: Datatypes veranderen (1)
 ---
 
+# Datatypes veranderen (1)
+
 Je kan variabele van datatype veranderen met de volgende functies:
 
 * **int(**x**)**   Maakt een integer van de variabele *x*.

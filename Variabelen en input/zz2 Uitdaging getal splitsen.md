@@ -3,6 +3,8 @@ layout: default
 title: Uitdaging getal splitsen
 ---
 
+# Getal splitsen
+
 ## Uitdaging 🧩
 
 <div style="

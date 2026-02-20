@@ -3,6 +3,8 @@ layout: default
 title: Oefening variabelen omwisselen
 ---
 
+# Variabelen omwisselen
+
 ## Opdracht
 <div style="
     background-color: #b0cdff;

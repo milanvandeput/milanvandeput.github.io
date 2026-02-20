@@ -3,6 +3,7 @@ layout: default
 title: variabelen
 ---
 
+# Variabelen
 
 **Variabelen** worden gebruikt om gegevens op te slaan in je code. 
 
