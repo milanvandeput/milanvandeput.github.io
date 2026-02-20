@@ -12,6 +12,7 @@ Een variabele heeft een **naam** die verwijst naar een geheugenplaats waar een *
 Een variabele kan je vergelijken met een doos met een etiket *(=naam)* en een inhoud *(=waarde)*.
 
 ![Variabele](/assets/images/variabele.png)
+
 *Bron: Universiteit Gent*
 
 Een variabele aanmaken in Python is heel eenvoudig. Hier zie je enkele voorbeelden:
