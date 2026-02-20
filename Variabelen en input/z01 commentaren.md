@@ -43,5 +43,5 @@ Pas de code aan zodat de juiste tekst verschijnt.
     padding: 15px;
     border-radius: 8px;
     border: 1px solid #ddd;
-">Tip: gebruik doorheen deze cursus zoveel mogelijk commentaren om je eigen code uit te leggen. Zo verbeter je de leesbaarheid van je code voor anderen en jezelf!
+">ℹ️ Gebruik doorheen deze cursus zoveel mogelijk commentaren om je eigen code uit te leggen. Zo verbeter je de leesbaarheid van je code voor anderen en jezelf!
 </div>
