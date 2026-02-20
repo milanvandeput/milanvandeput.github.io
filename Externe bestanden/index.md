@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Externe bestanden
+title: Overzicht
 ---
 
 Welkom bij de eerste les.

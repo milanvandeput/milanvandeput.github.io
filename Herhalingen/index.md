@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Herhalingen
+title: Overzicht
 ---
 
 while lus

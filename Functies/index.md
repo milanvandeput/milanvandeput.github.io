@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Functies
+title: Overzicht
 ---
 
 iets over functies

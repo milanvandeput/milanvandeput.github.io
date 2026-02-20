@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Keuzes
+title: Overzicht
 ---
 
 Welkom bij de tweede les

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Numerieke methodes
+title: Overzicht
 ---
 
 ...

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lijsten
+title: Overzicht
 ---
 
 lijsten les
