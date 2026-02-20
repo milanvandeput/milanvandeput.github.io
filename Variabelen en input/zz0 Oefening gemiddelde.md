@@ -19,5 +19,5 @@ Schrijf een programma dat drie getallen aan de gebruiker vraagt en het gemiddeld
 
 | Invoer  | Uitvoer |
 | ------------- | ------------- |
-| $$5 \\ 10  \\6$$| 7  |
-| $$8 \\ 7  \\2$$  | 5.66666666667  |
+| 5  10  6| 7  |
+| 8  7  2 | 5.66666666667  |
