@@ -1,3 +1,8 @@
+---
+layout: default
+title: Python code
+---
+
 # Python code
 Wij zullen code schrijven in de taal **Python** omdat deze gebruiksvriendelijk is en ook in zeer veel domeinen voorkomt. De code is ook redelijk leesbaar, zoals in het volgende voorbeeld:
 

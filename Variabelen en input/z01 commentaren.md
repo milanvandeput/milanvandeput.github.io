@@ -1,3 +1,8 @@
+---
+layout: default
+title: Commentaren
+---
+
 # Commentaren
 
 Commentaren zijn lijnen code of tekst die niet uitgevoerd zullen worden door de compiler. Je kan commentaren gebruiken om uitleg over je code toe te voegen.
