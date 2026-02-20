@@ -1,6 +1,6 @@
 ---
 layout: default
-title: variabelen en input
+title: overzicht
 ---
 
 Welkom bij de eerste les.
