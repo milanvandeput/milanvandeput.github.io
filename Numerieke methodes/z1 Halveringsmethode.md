@@ -9,7 +9,7 @@ De **halveringsmethode** is een numerieke methode om een **nulpunt** van een fun
 
 De methode start met een gegeven functie, en twee **startwaarden** *A* en *B* waarvan de ene onder het nulpunt zit en de andere erboven. *We laten hier buiten beschouwing hoe je aan deze startwaarden zou moeten komen.*
 
-**Voorbeeld:** de functie <p>f(x) =  x^2</p> met het nulpunt <p>sqrt{2}</p>. 
+**Voorbeeld:** de functie $f(x) =  x^2$ met het nulpunt $\sqrt{2}$. 
 
 <img src="/assets/images/halvering1.png" style="width: 30%; max-width: 100%; height: auto;">
 
@@ -64,6 +64,7 @@ def halvering(a,b):
 ## Afronden en nauwkeurigheid
 
 ... nog aanvullen
+
 
 
 
