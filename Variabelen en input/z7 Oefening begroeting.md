@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Oefening begroeting
+title: 📝 Begroeting
 ---
 
-# Begroeting
+# 📝 Begroeting
 
 Bekijk de volgende code en voer hem uit.
 

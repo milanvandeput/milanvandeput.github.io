@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Oefening variabelen omwisselen
+title: 📝 Variabelen omwisselen
 ---
 
-# Variabelen omwisselen
+# 📝 Variabelen omwisselen
 
 ## Opdracht
 <div style="

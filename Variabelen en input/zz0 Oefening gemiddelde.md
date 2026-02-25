@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Oefening gemiddelde
+title: 📝 Gemiddelde
 ---
 
-# Gemiddelde
+# 📝 Gemiddelde
 
 ## Opdracht
 <div style="

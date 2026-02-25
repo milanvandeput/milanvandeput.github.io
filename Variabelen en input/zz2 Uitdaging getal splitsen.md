@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  🧩 Uitdaging getal splitsen
+title:  🧩 Getal splitsen
 ---
 
 # Getal splitsen

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Oefening temperatuur
+title: 📝 Temperatuur
 ---
 
-# Temperatuur
+# 📝 Temperatuur
 
 De formule voor het verband tussen een temperatuur *C* in graden Celsius en een temperatuur *F* in graden Fahrenheit is:
 

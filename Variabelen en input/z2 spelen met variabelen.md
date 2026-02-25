@@ -1,6 +1,6 @@
 ---
 layout: default
-title: spelen met variabelen
+title: Spelen met variabelen
 ---
 
 # Spelen met variabelen

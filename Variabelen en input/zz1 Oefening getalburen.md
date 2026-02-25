@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Oefening getalburen
+title: 📝 Getalburen
 ---
 
-# Getalburen
+# 📝 Getalburen
 
 ## Opdracht
 <div style="
