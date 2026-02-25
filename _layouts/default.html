@@ -74,6 +74,16 @@
           background-color: #f1f1f1;
         }
     </style>
+    <!-- MathJax v3 configuratie: sta $...$ en \( ... \) toe als inline -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[','\\]']]
+        }
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 </head>
 <body>
 
