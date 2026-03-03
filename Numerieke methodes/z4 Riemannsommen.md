@@ -9,7 +9,7 @@ title:  📝 Riemannsommen
 
 <img src="/assets/images/riemann.png" style="width: 30%; max-width: 100%; height: auto;">
 
-*Het is in de eerste opdracht nog niet belangrijk of je met de middensom, ondersom of bovensom werkt.* 
+*Het is in deze opdracht niet belangrijk of je met de middensom, ondersom of bovensom werkt.* 
 
 
 
@@ -21,7 +21,7 @@ title:  📝 Riemannsommen
     border-radius: 8px;
     border: 1px solid #ddd;
 ">
-Definiëer een functie *rieman(a,b,n)* die de oppervlakte kan benaderen via een som van *n* rechthoeken.
+Definiëer een functie rieman(a,b,n) die de oppervlakte kan benaderen via een som van n rechthoeken.
 </div>
 <div style="
     background-color: #daabff;
@@ -29,6 +29,13 @@ Definiëer een functie *rieman(a,b,n)* die de oppervlakte kan benaderen via een 
     border-radius: 8px;
     border: 1px solid #ddd;
 ">ℹ️Definiëer $f(x)$ apart.  
+</div>
+<div style="
+    background-color: #daabff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+">ℹ️Denk na over hoe je de breedte van elke rechthoek kan berekenen.  
 </div>
 
 
@@ -40,7 +47,7 @@ def rieman(a,b,n):
 
     return(oppervlakte)
 ```
-*Je kan je programma testen op de functie $f(x)=-x^2+4$ in $[1,2]$ met een oppervlakte van 9. 
+Je kan je programma testen op de functie $f(x)=-x^2+4$ in $[1,2]$ met een oppervlakte van 9. 
 
 <div style="
     background-color: #b0cdff;
@@ -50,5 +57,6 @@ def rieman(a,b,n):
 ">
 Test je code ook eens uit op andere functies en intervallen.
 </div>
+
 
 
