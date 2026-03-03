@@ -9,7 +9,7 @@ De **halveringsmethode** is een numerieke methode om een **nulpunt** van een fun
 
 De methode start met een gegeven functie, en twee **startwaarden** *A* en *B* waarvan de ene onder het nulpunt zit en de andere erboven. *We laten hier buiten beschouwing hoe je aan deze startwaarden zou moeten komen.*
 
-**Voorbeeld:** de functie $f(x) =  x^2$ met het nulpunt $\sqrt{2}$ en de startwaarden $A=1$ en $B=2$. 
+**Voorbeeld:** de functie $f(x) =  x^2-2$ met het nulpunt $\sqrt{2}$ en de startwaarden $A=1$ en $B=2$. 
 
 <img src="/assets/images/halvering1.png" style="width: 20%; max-width: 100%; height: auto;">
 
@@ -64,7 +64,7 @@ def halvering(a,b):
     ...
     return(anieuw,bnieuw)
 ```
-*Je functie werkt als de waarden van a en b steeds dichter bij $\sqrt{2}=1.414213562373095... naderen$*
+*Je functie werkt als de waarden van a en b steeds dichter bij $\sqrt{2}=1.414213562373095...$ naderen*
 
 <div style="
     background-color: #b0cdff;
@@ -78,7 +78,7 @@ Test je code ook eens uit op andere functies, nulpunten en startwaarden.
 ## 🧩Nauwkeurigheid 
 In de vorige opdracht heb je de halveringsmethode telkens 100 keer laten herhalen om een nauwkeurig resultaat te bekomen. Maar dit is niet de meest efficiënte manier om dit aan te pakken. 
 
-We willen dat de code enkele blijft herhaald worden indien er een bepaalde **nauwkeurigheid** wordt bereikt, bijvoorbeeld tot op 0.000001 decimalen. We kunnen hiervoor nagaan hoever het midden $M$ nog in elke stap opschuift van $A$ (of $B$). Indien deze stapjes klein genoeg worden, weten we dat we een bepaalde nauwkeurigheid hebben bereikt.
+We willen dat de code blijft herhaald worden totdat er een bepaalde **nauwkeurigheid** wordt bereikt, bijvoorbeeld tot op 0.000001 decimalen. We kunnen hiervoor nagaan hoever het midden $M$ nog in elke stap opschuift van $A$ (of $B$). Indien deze stapjes klein genoeg worden, weten we dat we een bepaalde nauwkeurigheid hebben bereikt.
 
 ## Opdracht
 <div style="
