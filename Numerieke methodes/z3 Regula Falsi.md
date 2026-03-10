@@ -9,7 +9,7 @@ De methode start met een gegeven functie, en twee **startwaarden** *A* en *B* wa
 
 **Voorbeeld:** de functie $f(x) =  x^2-2$ met het nulpunt $\sqrt{2}$ en de startwaarden $A=1$ en $B=2$. 
 
-<img src="/assets/images/regulafalsi11.png" style="width: 20%; max-width: 100%; height: auto;">
+<img src="/assets/images/regulafalsi1.png" style="width: 20%; max-width: 100%; height: auto;">
 
 
 We starten hier met het punt *A* onder de x-as en het punt *B* boven de x-as. We tekenen dan de rechte die door *A* en *B* loopt.
@@ -23,7 +23,7 @@ We noemen *C* het snijpunt van deze rechte met de x-as.
 We bekijken of *f(C)* positief of negatief is en benoemen zo het nieuwe punt *A* of *B*.
 
 
-<img src="/assets/images/regulafalsi44.png" style="width: 20%; max-width: 100%; height: auto;">
+<img src="/assets/images/regulafalsi4.png" style="width: 20%; max-width: 100%; height: auto;">
 
 Dat betekent dat hoe langer we deze stappen blijven **herhalen**, hoe dichter we rond het nulpunt zullen zitten. 
 
@@ -70,4 +70,5 @@ def regulafalsi(a,b):
     border: 1px solid #ddd;
 ">
 Test je code ook eens uit op andere functies, nulpunten en startwaarden.
+
 </div>
