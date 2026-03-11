@@ -5,7 +5,7 @@ title: 📝 Newton-Raphson
 
 # 📝 Newton-Raphson
 
-De **halveringsmethode** is een numerieke methode om een **nulpunt** van een functie te berekenen.
+De **Newton-Raphson** methode is een numerieke methode om een **nulpunt** van een functie te berekenen.
 
 De methode start met een gegeven functie en een startwaarde $X_{0}$ *We laten hier buiten beschouwing hoe je aan deze startwaarde zou moeten komen.*
 
@@ -35,7 +35,7 @@ Schrijf een programma dat de methode van Newton-Raphson kan uitvoeren. Je gebrui
     padding: 15px;
     border-radius: 8px;
     border: 1px solid #ddd;
-">ℹ️Definiëer $f(x)$ en $f'(x)$ apart.  
+">ℹ️Definiëer $f(x)$ en $df(x)$ apart.  
 </div>
 <div style="
     background-color: #daabff;
@@ -49,7 +49,7 @@ Schrijf een programma dat de methode van Newton-Raphson kan uitvoeren. Je gebrui
 def f(x):
     ...
 
-def f'(x):
+def df(x):
     ...
 
 
@@ -95,3 +95,4 @@ Schrijf een functie die de afgeleide kan berekenen via een numerieke methode. Im
 ">ℹ️Het laten naderen van $\Delta x$ naar 0 kan bijvoorbeeld door een macht van $(\frac{1}{2})^n$ te laten oplopen.
 
 </div>
+
