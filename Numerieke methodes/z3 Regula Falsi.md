@@ -69,6 +69,7 @@ def regulafalsi(a,b):
     border-radius: 8px;
     border: 1px solid #ddd;
 ">
-Test je code ook eens uit op andere functies, nulpunten en startwaarden.
+Voeg nog een tweede test toe aan je code met de funnctie $f(x)=\frac{x^3}{6}-3x$ en startpunten $A=-3$ en $B=2$. Je zou het nulpunt 0 moeten benaderen.
 
 </div>
+
