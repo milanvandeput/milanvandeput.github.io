@@ -51,6 +51,13 @@ Schrijf een programma dat de methode Regula Falsi kan uitvoeren. Je gebruikt de 
     border: 1px solid #ddd;
 ">ℹ️Definiëer een functie regulafalsi(a,b) die vanuit een gegeven A en B de nieuwe A en B bepaalt en teruggeeft als tuple (A,B).
 </div>
+<div style="
+    background-color: #daabff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+">ℹ️Je kan een hulpfunctie rico(a,b) definiëren die de rico van de rechte tussen de twee punten berekent. Dan hoef je deze berekening niet telkens in de andere functies uit te voeren.
+</div>
 
 ```python
 def f(x):
