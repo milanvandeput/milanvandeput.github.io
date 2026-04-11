@@ -3,8 +3,9 @@ layout: default
 title: Overzicht
 ---
 
-Welkom bij de eerste les.
+In deze les leren we werken met externe bestanden.
 
-hier leer je 
-- eee
-- eee
+- .txt bestanden
+- bestanden lezen
+- bestanden creëeren
+- bestanden aanpassen
