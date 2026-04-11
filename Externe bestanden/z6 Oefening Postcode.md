@@ -7,7 +7,7 @@ title: 📝 Postcode
 
 ## Opdracht
 
-<a href="/assets/files/test.txt" download="test1">Download hier het voorbeeld van een tekstbestand voor deze oefening.</a>
+<a href="/assets/files/postcodes.txt" download="test1">Download hier het tekstbestand met de postcodes.</a>
 
 <div style="
     background-color: #b0cdff;
@@ -15,14 +15,14 @@ title: 📝 Postcode
     border-radius: 8px;
     border: 1px solid #ddd;
 ">
-Download het tekstbestand en plaats het in dezelfde map als je python code. Voer dan de volgende code uit:
+Schrijf een programma dat een postcode vraagt aan de gebruiker. Het programma zoekt de bijhorende gemeente op in het tekstbestand en print deze.
 </div> 
-
-```python
-with open("test1.txt", "r") as bestand:
-    for lijn in bestand:
-        print(lijn)
-```
+`
 
 ### Voorbeeldtesten
-Je hebt dit correct gedaan als het tekstbestand regel per regel via je python code wordt geprint.
+| Invoer  | Uitvoer |
+| ------------- | ------------- |
+| 1180  | Ukkel  |
+| 2000 | Antwerpen |
+
+TODO: hier nog uitdaging?

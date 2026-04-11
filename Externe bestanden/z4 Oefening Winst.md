@@ -7,7 +7,7 @@ title: 📝 Winst
 
 ## Opdracht
 
-<a href="/assets/files/test.txt" download="test1">Download hier het voorbeeld van een tekstbestand voor deze oefening.</a>
+<a href="/assets/files/verkoopcijfers.txt" download="verkoopcijfers">Download hier de verkoopcijfers.</a>
 
 <div style="
     background-color: #b0cdff;
@@ -15,14 +15,17 @@ title: 📝 Winst
     border-radius: 8px;
     border: 1px solid #ddd;
 ">
-Download het tekstbestand en plaats het in dezelfde map als je python code. Voer dan de volgende code uit:
+De verkoper van een limonadekraam heeft een jaar lang elke dag zijn omzet genoteerd in een tekstbestand. Hij had elke dag 15 euro aan vaste kosten om zijn kraam uit te baten. Wat is de totale winst die hij op een jaar heeft gemaakt?
 </div> 
 
-```python
-with open("test1.txt", "r") as bestand:
-    for lijn in bestand:
-        print(lijn)
-```
+<div style="
+    background-color: #daabff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+">ℹ️Denk eraan dat de regels uit het bestand automatisch als string worden ingelezen. Je zal dus het datatype moeten veranderen om bewerkingen te kunnen uitvoeren.
+</div>
 
 ### Voorbeeldtesten
-Je hebt dit correct gedaan als het tekstbestand regel per regel via je python code wordt geprint.
+Je zou als antwoord 39295 moeten uitkomen.
+

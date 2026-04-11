@@ -12,11 +12,12 @@ with open("test1.txt", "r") as bestand:
     #...
 ```
 
-- Het eerste argument *(hier: "test1.txt)* is de **naam** van het bestand. Deze moet exact overeenkomen.
-- Het tweede argument is de **modus**, dat wil zeggen de manier waarop je het bestand wil openen:
+- Het eerste argument *(hier: "test1.txt")* is de **naam** van het bestand. Deze moet exact overeenkomen.
+- Het tweede argument is de **modus**, m.a.w. de manier waarop je het bestand wil openen:
     - **"r"** is de leesmodus (*read*)
     - **"w"** is de schrijfmodus (*write*)
     - **"a"** is de toevoegmodus (*append*)
+
 Het bestand openen in een verschillende modus, geeft je code andere rechten tot wat het wel en niet mag doen met het bestand. In dit eerste deel beperken we ons tot de leesmodus.
 
 ## Leesmodus ("r")
@@ -27,8 +28,8 @@ Een tekstbestand bestaat uit meerdere regels. Je code zal daarom vrijwel altijd 
 ```python
 with open("test1.txt", "r") as bestand:
     for regel in bestand:
+        #hier komt je code...
         print(regel)
 ```
-Daarna kan je met deze regels doen wat je wil: printen, opslaan in een variabele, bewerkingen uitvoeren, toevoegen aan een lijst, etc.
+**Binnen de for-loop** kan je met deze regels doen wat je wil: printen, opslaan in een variabele, bewerkingen uitvoeren, toevoegen aan een lijst, etc.
 
-Alle code moet dus wel **binnen de for-loop** gebeuren.
