@@ -1,3 +1,5 @@
+Proficiat! Je hebt dit bestand en de pyhon code in dezelfde map gezet :)
+
 Dit is een tekstbestand.
 Het heeft de extensie .txt
 Het kan geopend worden in programma's zoals Kladblok.
