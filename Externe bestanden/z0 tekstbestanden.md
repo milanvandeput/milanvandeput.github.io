@@ -11,7 +11,8 @@ De bestanden die we in deze les leren bewerken met python code, zijn tekstbestan
 
 In de oefeningen zullen we verschillende tekstbestanden inlezen en aanpassen. Daarvoor is het belangrijk dat het tekstbestand zich steeds in **dezelfde map** bevindt als het *.py-bestand* (de python code). 
 
-![Numeriek](/assets/images/tekst1.png)
+![Numeriek](/assets/images/tekst1.png style="width: 40%; max-width: 100%; height: auto;")
+
 
 *Een voorbeeld van hoe de map er kan uitzien. Er mogen ook meerdere tekstbestanden en .py-bestanden* in dezelfde map zitten.
 
