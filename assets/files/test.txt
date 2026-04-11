@@ -1,3 +1,5 @@
-ae
-aa
-azeaz
+Dit is een tekstbestand.
+Het heeft de extensie .txt
+Het kan geopend worden in programma's zoals Kladblok.
+
+Plaats dit in dezelfde map als je .py bestand om met het bestand in python te kunnen werken.
