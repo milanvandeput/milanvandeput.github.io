@@ -17,9 +17,10 @@ title: 📝 Postcode
 ">
 Schrijf een programma dat een postcode vraagt aan de gebruiker. Het programma zoekt de bijhorende gemeente op in het tekstbestand en print deze.
 </div> 
-`
+
 
 ### Voorbeeldtesten
+
 | Invoer  | Uitvoer |
 | ------------- | ------------- |
 | 1180  | Ukkel  |
