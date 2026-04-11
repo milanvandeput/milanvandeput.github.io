@@ -1,6 +1,6 @@
 ---
 layout: default
-title: .txt bestanden
+title:  tekstbestanden
 ---
 
 # Numerieke methodes
