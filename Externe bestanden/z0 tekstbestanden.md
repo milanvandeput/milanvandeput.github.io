@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  tekstbestanden
+title:  Tekstbestanden
 ---
 
 # Tekstbestanden
