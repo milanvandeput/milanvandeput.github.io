@@ -26,4 +26,4 @@ Schrijf een programma dat een postcode vraagt aan de gebruiker. Het programma zo
 | 1180  | Ukkel  |
 | 2000 | Antwerpen |
 
-TODO: hier nog uitdaging?
+
