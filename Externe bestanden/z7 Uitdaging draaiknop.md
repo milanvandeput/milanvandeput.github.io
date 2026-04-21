@@ -11,7 +11,8 @@ Via een aantal instructies wordt er verteld welke bewegingen de draaiknop maakt.
 
 - **L 8** betekent dat het cijfer met 8 afneemt, bijvoorbeeld van 50 naar 42.
 - **R 10** betekent dat het cijfer met 10 toeneemt, bijvoorbeeld van 50 naar 60.
-- Indien het cijfer de 0 passeert, draait hij gewoon verder in dezelfde richting. Bijvoorbeeld: **L68** laat de draaiknop van 50 naar 82 gaan.
+- Indien het cijfer de 0 passeert, draait hij gewoon verder in dezelfde richting. Bijvoorbeeld: **L 68** laat de draaiknop van 50 naar 82 gaan.
+  
 <img src="/assets/images/draaiknop.png" style="width: 20%; max-width: 100%; height: auto;">
 
 ## Opdracht
