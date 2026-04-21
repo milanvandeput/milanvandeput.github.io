@@ -9,28 +9,28 @@ Een draaiknop bevat de cijfers van 0 tot en met 99. Momenteel staat de draaiknop
 
 Via een aantal instructies wordt er verteld welke bewegingen de draaiknop maakt.
 
-- **L8** betekent dat het cijfer met 8 afneemt, bijvoorbeeld van 50 naar 42.
-- **R10** betekent dat het cijfer met 10 toeneemt, bijvoorbeeld van 50 naar 60.
+- **L 8** betekent dat het cijfer met 8 afneemt, bijvoorbeeld van 50 naar 42.
+- **R 10** betekent dat het cijfer met 10 toeneemt, bijvoorbeeld van 50 naar 60.
 - Indien het cijfer de 0 passeert, draait hij gewoon verder in dezelfde richting. Bijvoorbeeld: **L68** laat de draaiknop van 50 naar 82 gaan.
-<img src="/assets/images/draaiknop.png" style="width: 50%; max-width: 100%; height: auto;">
+<img src="/assets/images/draaiknop.png" style="width: 20%; max-width: 100%; height: auto;">
 
 ## Opdracht
 
 We willen tellen **hoe vaak de draaiknop op 0 terecht komt**. Dit is de score.
 
-Een voorbeeldje: L68 L30 R48 L5 R60 L55 L1 L99 R14 L82
+Een voorbeeldje: L 68  L 30  R 48  L 5  R 60  L 55  L 1  L 99  R 14  L 82
 
-- De knop start op 50 50.
-- De knoop draait via L68 naar 82.
-- De knoop draait via L30 naar 52.
-- De knoop draait via R48 naar **0**.
-- De knoop draait via L5 naar 95.
-- De knoop draait via R60 naar 55.
-- De knoop draait via L55 naar **0**.
-- De knoop draait via L1 naar 99.
-- De knoop draait via L99 naar **0**.
-- De knoop draait via R14 naar 14.
-- De knoop draait via L82 naar 32.
+- De knop start op 50.
+- De knoop draait via L 68 naar 82.
+- De knoop draait via L 30 naar 52.
+- De knoop draait via R 48 naar **0**.
+- De knoop draait via L 5 naar 95.
+- De knoop draait via R 60 naar 55.
+- De knoop draait via L 55 naar **0**.
+- De knoop draait via L 1 naar 99.
+- De knoop draait via L 99 naar **0**.
+- De knoop draait via R 14 naar 14.
+- De knoop draait via L 82 naar 32.
 
 Deze bewegingen hebben dus een **score van 3**.
 
