@@ -52,7 +52,7 @@ Charleroi 6000
 Marchienne-au-Pont 6030
 Gilly 6060
 Mons 7000
-La Louvière 7100
+La-Louvière 7100
 Tournai 7500
 Ath 7800
 Nivelles 1400
