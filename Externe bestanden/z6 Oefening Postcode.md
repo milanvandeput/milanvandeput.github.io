@@ -7,7 +7,7 @@ title: 📝 Postcode
 
 ## Opdracht
 
-<a href="/assets/files/postcodes.txt" download="test1">Download hier het tekstbestand met de postcodes.</a>
+<a href="/assets/files/postcodes.txt" download="postcodes">Download hier het tekstbestand met de postcodes.</a>
 
 <div style="
     background-color: #b0cdff;
