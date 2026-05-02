@@ -16,7 +16,7 @@ with open("test1.txt", "r") as bestand:
 - Het tweede argument is de **modus**, m.a.w. de manier waarop je het bestand wil openen:
     - **"r"** is de leesmodus (*read*)
     - **"w"** is de schrijfmodus (*write*)
-    - **"a"** is de toevoegmodus (*append*)
+    - **"a"** is de aanvulmodus (*append*)
 
 Het bestand openen in een verschillende modus, geeft je code andere rechten tot wat het wel en niet mag doen met het bestand. In dit eerste deel beperken we ons tot de leesmodus.
 
