@@ -37,6 +37,6 @@ Schrijf een programma dat de antwoorden op de drie vragen berekent en onderaan h
 Deze regels zouden onderaan aan het tekstbestand toegevoegd moeten worden:
 
 - Karel behaalt 5 op 10.
-- Er zijn 3 onvoldoendes in de klas.
+- Er zijn 4 onvoldoendes in de klas.
 - Het klasgemiddelde is 6.5 op 10.
 
