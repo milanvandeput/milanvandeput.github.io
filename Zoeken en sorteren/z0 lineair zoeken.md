@@ -26,7 +26,7 @@ Dit is een vrij trage methode maar voor een **ongesorteerde lijst** is er geen a
     border: 1px solid #ddd;
 ">
 
-Implementeer de methode van het lineair zoeken en voor ze uit op onderstaande voorbeelden.</div>
+Implementeer de methode van het lineair zoeken en voer ze uit op onderstaande voorbeelden.</div>
 
 ### Voorbeeldtest
 
