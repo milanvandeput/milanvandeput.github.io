@@ -3,7 +3,7 @@ layout: default
 title: 🧩 Tijd meten
 ---
 
-# 🧩 Tijd meten
+# 🧩 Tijdsmetingen
 
 Hoe kan je experimenteel aantonen dat de ene zoekmethode snelle werkt dan de andere? **Tijdsmetingen** kunnen hiervoor helpen. Je meet hoe lang het duurt om je code uit te voeren met de module  **time**
 
