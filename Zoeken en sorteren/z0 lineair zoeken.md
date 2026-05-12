@@ -12,6 +12,7 @@ getallenlijst=[38,3,6,50,11,13,15,34,21,36,2,42,49,8]
 ```
 
 We kunnen dit doen door de getallen in de lijst een voor een af te gaan, dit heet **lineair zoeken**.
+
 <img src="/assets/images/lineairzoeken.png" style="width: 40%; max-width: 100%; height: auto;">
 
 Dit is een vrij trage methode maar voor een **ongesorteerde lijst** is er geen andere methode die sneller zal werken.
