@@ -6,7 +6,7 @@ title:  Selection sort
 
 # Selection sort
 
-Bij *Selection sort* wordt de volledige lijst doorlopen waarbij er op zoek gegaan wordt naar het kleinste element. Dit element wordt dan op de eerste positie geplaatst. Daarna wordt dit nog eens herhaal met het zoeken vanaf de tweede positie, etc.
+Bij *Selection sort* wordt de volledige lijst doorlopen waarbij er op zoek gegaan wordt naar het kleinste element. Dit element wordt dan op de eerste positie geplaatst. Daarna wordt dit nog eens herhaald met het zoeken vanaf de tweede positie, etc.
 
 Na X herhalingen kan je er dus vanuit gaan dat de eerste X elementen op de juiste plaats staan.
 

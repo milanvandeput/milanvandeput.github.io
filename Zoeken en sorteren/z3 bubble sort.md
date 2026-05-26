@@ -15,7 +15,7 @@ Het sorteren van een lijst (van klein naar groot) kan op verschillende manieren 
 
 # Bubble sort
 
-Bij *Bubble sort* wordt de volledige lijst doorlopen waarbij de elementen in paren worden vergeleken. Als hun volgorde onderling niet klopt, wordt de lijst opnieuw helemaal doorlopen. 
+Bij *Bubble sort* wordt de volledige lijst doorlopen waarbij de elementen in paren worden vergeleken. Als hun volgorde onderling niet klopt, worden ze onderling gewisseld. 
 
 Het algoritme blijft dit herhalen tot er bij het volledig doorlopen van de lijst geen enkele keer meer gewisseld moet worden.
 
