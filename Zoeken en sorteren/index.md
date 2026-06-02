@@ -7,8 +7,7 @@ In deze les leren we enkele zoek- en sorteeralgoritmes en vergelijken we ze met 
 
 - lineair zoeken
 - binair zoeken
-- (jump search)
-- (interpolation search)
+- jump search
 - bubble sort
 - selection sort
 - insertion sort
