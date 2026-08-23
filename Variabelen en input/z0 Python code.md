@@ -24,11 +24,11 @@ Experimenteer met de bovenstaande code. Kan je de uitvoer doen veranderen?
 
 
 <details>
-<summary><b>Python code uitvoeren (klik hier)</b></summary>
+<summary><span style="color:#b0cdff"><b>Python code uitvoeren (klik hier)</b></span></summary>
 
 <iframe
 src="https://www.onlineide.pro/playground/python"
-width="95%"
+width="100%"
 height="500"
 frameborder="10">
 </iframe>
