@@ -22,9 +22,15 @@ Hier heb je kennis gemaakt met een eerste **functie**: de functie **print()**. D
 Experimenteer met de bovenstaande code. Kan je de uitvoer doen veranderen?
 </div>
 
+
+<details>
+<summary><b>Python code</b></summary>
+
 <iframe
 src="https://www.onlineide.pro/playground/python"
-width="90%"
+width="95%"
 height="400"
-frameborder="2">
+frameborder="10">
 </iframe>
+
+</details>
