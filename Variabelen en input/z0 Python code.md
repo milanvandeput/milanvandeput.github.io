@@ -23,13 +23,8 @@ Experimenteer met de bovenstaande code. Kan je de uitvoer doen veranderen?
 </div>
 
 <iframe
-2
 src="https://www.online-python.com/"
-3
 width="100%"
-4
 height="500"
-5
 frameborder="0">
-6
 </iframe>
