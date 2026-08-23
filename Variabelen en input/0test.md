@@ -3,6 +3,28 @@ layout: default
 title: test
 ---
 
+# Python Demo
+<textarea id="code" rows="10" cols="60">
+print("Hallo wereld")
+</textarea>
+<button onclick="runPython()">Uitvoeren</button>
+<pre id="output"></pre>
+<script type="module">
+import { loadPyodide } from "https://cdn.jsdelivr.net/pyodide/v0.28.2/full/pyodide.mjs";
+ 
+let pyodide = await loadPyodide();
+window.runPython = async function() {
+const code = document.getElementById("code").value;
+try {
+const result = await pyodide.runPythonAsync(code);
+document.getElementById("output").textContent =
+result ?? "Code uitgevoerd";
+} catch (err) {
+document.getElementById("output").textContent = err;
+}
+}
+</script>
+
 # oef a
 oef a van les 1
 
