@@ -6,7 +6,7 @@ title: Python code
 # Python code
 Wij zullen code schrijven in de taal **Python** omdat deze gebruiksvriendelijk is en ook in zeer veel domeinen voorkomt. De code is ook redelijk leesbaar, zoals in het volgende voorbeeld:
 
-```python.trinket
+```python
 print("Hallo wereld")
 ```
 
@@ -24,12 +24,12 @@ Experimenteer met de bovenstaande code. Kan je de uitvoer doen veranderen?
 
 
 <details>
-<summary><b>Python code</b></summary>
+<summary><b>Python code uitvoeren (klik hier)</b></summary>
 
 <iframe
 src="https://www.onlineide.pro/playground/python"
 width="95%"
-height="400"
+height="500"
 frameborder="10">
 </iframe>
 
