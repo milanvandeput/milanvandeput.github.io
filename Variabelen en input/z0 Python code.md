@@ -24,7 +24,7 @@ Experimenteer met de bovenstaande code. Kan je de uitvoer doen veranderen?
 
 
 <details>
-<summary><span style="color: #daabff"><b>Python code uitvoeren (klik hier)</b></span></summary>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
 
 <iframe
 src="https://www.onlineide.pro/playground/python"
