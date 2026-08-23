@@ -14,7 +14,7 @@ Hier heb je kennis gemaakt met een eerste **functie**: de functie **print()**. D
 
 ## Opdracht
 <div style="
-    background-color: #b0cdff;
+    background-color: #b0ffc3;
     padding: 15px;
     border-radius: 8px;
     border: 1px solid #ddd;
