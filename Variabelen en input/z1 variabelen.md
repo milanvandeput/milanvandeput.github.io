@@ -7,7 +7,7 @@ title: variabelen
 
 **Variabelen** worden gebruikt om gegevens op te slaan in je code. 
 
-Een variabele heeft een **naam** die verwijst naar een geheugenplaats waar een **waarde ** opgeslagen wordt. Deze waarde kan een getal zijn, een stukje tekst of nog veel meer *(zie later: datatypes)*.
+Een variabele heeft een **naam** die verwijst naar een geheugenplaats waar een **waarde** opgeslagen wordt. Deze waarde kan een getal zijn, een stukje tekst of nog veel meer *(zie later: datatypes)*.
 
 Een variabele kan je vergelijken met een doos met een etiket *(=naam)* en een inhoud *(=waarde)*.
 

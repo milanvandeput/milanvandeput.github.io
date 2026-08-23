@@ -25,7 +25,15 @@ Voer de onderstaande code uit in de trinket. Voorspel wat de uitvoer zal zijn.
 print("Deze tekst wil ik niet laten printen.")
 #print("Deze tekst wil ik wel laten printen.")
 ```
-
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
 ## Opdracht
 <div style="

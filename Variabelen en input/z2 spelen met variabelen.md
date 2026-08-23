@@ -5,7 +5,7 @@ title: Spelen met variabelen
 
 # Spelen met variabelen
 
-De waarde van een variabele aanpassen of kopiëren naar een nieuwe variabele kan je allemaal eenvoudig doen met het = teken. Maar je moet wel goed in gedachten houden welke variabele op welk moment welke waarde bevat.
+De waarde van een variabele aanpassen of kopiëren naar een nieuwe variabele kan je allemaal eenvoudig doen met het **=** teken. Maar je moet wel goed in gedachten houden welke variabele op welk moment welke waarde bevat.
 
 ## Opdracht
 <div style="
@@ -14,7 +14,7 @@ De waarde van een variabele aanpassen of kopiëren naar een nieuwe variabele kan
     border-radius: 8px;
     border: 1px solid #ddd;
 ">
-Probeer van de onderstaande code te voorspellen wat de uitvoer zal zijn. Controleer daarna je antwoord door de code te kopiëren naar de trinket.
+Probeer van de onderstaande code te voorspellen wat de uitvoer zal zijn. Controleer daarna je antwoord door ze te runnen.
 </div>
 
 **Opgave a)**
@@ -45,3 +45,12 @@ a=a+b
 b="a"
 print(b)
 ```
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
