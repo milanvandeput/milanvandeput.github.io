@@ -16,6 +16,16 @@ Normale mensen zullen alleen een ijsje eten wanneer het zomer is (en het niet re
 "> Schrijf een programma dat aan de gebruiker vraagt in welk seizoen (Zomer, Lente, Herfst, Winter) we zitten en welk weer (Zon, Regen, Bewolkt) ze vandaag geven. Het programma zal zeggen of het ijsjesweer is of niet.
 </div>
 
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
+
 ### Voorbeeldtesten
 
 | Invoer  | Uitvoer |

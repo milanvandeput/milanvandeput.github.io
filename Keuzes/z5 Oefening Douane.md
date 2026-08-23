@@ -14,6 +14,15 @@ title: 📝 Douane
 ">Schrijf een programma dat aan een vliegtuigpassagier vraagt of welke wapens hij bijheeft. Bij elk antwoord krijgt hij de boodschap: 'Je wordt van het vliegtuig gestuurd!'. Alleen als hij 'Geen' antwoordt, krijgt hij de boodschap: 'Geniet van je vlucht!' .
 </div>
 
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
 ### Voorbeeldtesten
 

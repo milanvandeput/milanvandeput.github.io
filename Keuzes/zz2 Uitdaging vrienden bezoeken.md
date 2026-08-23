@@ -27,6 +27,16 @@ Schrijf een programma dat vanuit een dagnummer (*de eerste dag = 1*) kan bereken
 ">ℹ️Je zal gebruik moeten maken van de operatoren // en % (zie cheat sheet).
 </div>
 
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
+
 ### Voorbeeldtesten
 
 | Invoer  | Uitvoer |

@@ -27,6 +27,15 @@ Schrijf een programma dat van een zet kan zeggen of het een geldige zet is of ni
 - r2 is het rijnummer van waar de koningin naartoe gaat.
 </div>
 
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
 ### Voorbeeldtesten
 

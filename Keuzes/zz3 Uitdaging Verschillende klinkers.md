@@ -13,20 +13,30 @@ title:  🧩 Verschillende klinkers
     border: 1px solid #ddd;
 ">
 Schrijf een programma dat telt hoeveel verschillende klinkers er in een gegeven zin voorkomen.
-*Opgelet: hoofdletters en kleine letters tellen als dezelfde klinker.*
+Opgelet: hoofdletters en kleine letters tellen als dezelfde klinker.
 </div>
 <div style="
     background-color: #daabff;
     padding: 15px;
     border-radius: 8px;
     border: 1px solid #ddd;
-">ℹ️ Maak gebruik van de uitdrukking **in**
+">ℹ️ Maak gebruik van de uitdrukking 'in'
 </div>
 ```python
 print("a" in "aap")      #True
 print("b" in "aap")      #False
 print("bcd" in "abcdef") #True
 ```
+
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
 ### Voorbeeldtesten
 

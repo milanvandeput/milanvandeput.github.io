@@ -20,6 +20,15 @@ else:
 
 print("Tot de volgende keer!")
 ```
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
 Heb je de bovenstaande code begrepen?
 * Achter *else* moet ook een **:** volgen zoals bij *if*.
@@ -27,5 +36,5 @@ Heb je de bovenstaande code begrepen?
 * **Opmerking:** Je mag dus geen (andere) voorwaarde toevoegen achter *else*. 
 * **Opmerking2:** je kan geen *else* gebruiken zonder *if*.
 
-**Een figuur om het voorgaande samen te vatten:**
+**Je kan de werking van een if-else code met dit schema samenvatten:**
 ![ifelse](/assets/images/ifelseschema.png)

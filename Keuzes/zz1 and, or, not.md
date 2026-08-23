@@ -7,13 +7,13 @@ title: and, or, not
 
 De operatoren **and**, **or** en **not** laten ons toe om meer complexe condities bij een if-else statement te maken.
 
-###and
+### and
 Een boolean zal enkel True zijn wanneer aan beide voorwaarden voldaan is.
 ```python
 var1 = 5>3 and 1+1==2   #True
 var2 = 5>3 and 2==3     #False
 ```
-###or
+### or
 Een boolean zal True zijn wanneer aan minstens een van de voorwaarden voldaan is.
 ```python
 var1 = 5>3 or 1+1==2   #True
@@ -21,10 +21,19 @@ var2 = 5>3 or 2==3     #True
 var3 = 5<3 or 1+1!=2     #False
 ````
 
-###not
+### not
 Met not kan je de True/False waarde van een boolean omkeren.
 ```python
 var1 = not 5>3   #False
 var2 = not 3>5    #True
 var3 = not (1+1==2 and 2+2==4)  #False
 ```
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>

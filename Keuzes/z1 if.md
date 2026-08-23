@@ -19,6 +19,15 @@ if lengte < 160:
     
 print("Tot de volgende keer!")
 ```
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
 Begrijp je de werking van de code hierboven? 
 * Achter *if* komt de voorwaarde (in dit geval een ongelijkheid). 

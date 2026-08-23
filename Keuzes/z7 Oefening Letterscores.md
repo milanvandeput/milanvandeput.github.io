@@ -17,6 +17,15 @@ In het Amerikaanse onderwijs werkt men met letterscores A,B,C,D en F. Deze score
 ">Schrijf een programma dat aan de gebruiker een getalscore vraagt, en de letterscore teruggeeft.
 </div>
 
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
 ### Voorbeeldtesten
 
