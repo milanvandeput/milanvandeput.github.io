@@ -14,7 +14,7 @@ Hier heb je kennis gemaakt met een eerste **functie**: de functie **print()**. D
 
 ## Opdracht
 <div style="
-    background-color: #b0ffc3;
+    background-color: #b0cdff
     padding: 15px;
     border-radius: 8px;
     border: 1px solid #ddd;
@@ -24,7 +24,7 @@ Experimenteer met de bovenstaande code. Kan je de uitvoer doen veranderen?
 
 
 <details>
-<summary><span style="color:#b0cdff"><b>Python code uitvoeren (klik hier)</b></span></summary>
+<summary><span style="color: #daabff"><b>Python code uitvoeren (klik hier)</b></span></summary>
 
 <iframe
 src="https://www.onlineide.pro/playground/python"
