@@ -38,6 +38,8 @@ print(uitkomst)
     border-radius: 8px;
     border: 1px solid #ddd;
 ">ℹ️
+var1 veranderen naar een float of integer zal trouwens niet lukken. Python is niet zo slim dat hij het getal 4 kan herkennen in het woord "vier". Toch kan het nuttig zijn om ook bij strings op het datatype te letten (zie verder).
+</div>
 
 <details>
 <summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
@@ -49,5 +51,3 @@ frameborder="10">
 </iframe>
 </details>
 
-var1 veranderen naar een float of integer zal trouwens niet lukken. Python is niet zo slim dat hij het getal 4 kan herkennen in het woord "vier". Toch kan het nuttig zijn om ook bij strings op het datatype te letten (zie verder).
-</div>
