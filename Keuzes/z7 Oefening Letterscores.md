@@ -33,4 +33,3 @@ frameborder="10">
 | ------------- | ------------- |
 | 60| D  |
 | 82  | B  |
-| Geen| Geniet van je vlucht!  |
