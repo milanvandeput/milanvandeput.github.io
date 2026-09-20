@@ -7,7 +7,7 @@ title:  🧩 Schaakspel
 
 De koninging mag bij het spel schaken bewegen op de volgende manieren:
 
-![koningin](/assets/images/koningin.png)
+![koningin](/assets/images/koninging.png)
 
 We kunnen een vakje op een schaakbord voorstellen met twee getallen **k** en **r**. 
 - k is het kolomnummer: a=1, b=2, ...
