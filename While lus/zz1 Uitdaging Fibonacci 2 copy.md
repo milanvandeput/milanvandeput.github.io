@@ -17,6 +17,15 @@ title:  🧩 Fibonacci 2
 Schrijf een programma dat een geheel getal aan de gebruiker vraagt. Het programma of het getal in de rij van Fibonacci voorkomt en zo ja, het hoeveelste getal het dan is.
 </div>
 
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
 ### Voorbeeldtesten
 

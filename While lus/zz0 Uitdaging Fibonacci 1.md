@@ -17,6 +17,15 @@ De *Rij van Fibonacci* begint met 1 en 1 en telt dan telkens de vorige twee geta
 Schrijf een programma dat een geheel getal aan de gebruiker een getal n vraagt. Het programma print de eerste n getallen van de Rij van Finonacci.
 </div>
 
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
 ### Voorbeeldtesten
 

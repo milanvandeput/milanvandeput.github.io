@@ -15,6 +15,15 @@ title:  🧩 Serie gelijke waarden
 Schrijf een programma dat een onbepaald aantal natuurlijke getallen als input vraagt (en stopt bij 0). Het programma print hoe lang de langste opeenvolging van gelijke waarden was.
 </div>
 
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
 ### Voorbeeldtesten
 

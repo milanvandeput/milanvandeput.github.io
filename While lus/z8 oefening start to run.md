@@ -25,6 +25,15 @@ Een voorbeeld: de startafstand is 6km en de doelafstand is 10km.
 ">Schrijf een programma dat een startafstand en doelafstand aan de gebruiker vraagt. Het programma zegt hoeveel dagen dit loopschema in beslag zal nemen.
 </div>
 
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
 ### Voorbeeldtesten
 

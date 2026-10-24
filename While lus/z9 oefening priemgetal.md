@@ -29,6 +29,15 @@ Een **priemgetal** is een getal dat alleen deelbaar is door 1 en zichzelf. Voorb
 ">ℹ️Een mogelijke aanpak: test met een loop de deelbaarheid van de getallen kleiner dan n (met de % operator). Een Booleaanse variabele houdt bij of er een deelbaar getal bij was.
 </div>
 
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
 ### Voorbeeldtesten
 
