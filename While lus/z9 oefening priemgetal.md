@@ -19,7 +19,7 @@ Een **priemgetal** is een getal dat alleen deelbaar is door 1 en zichzelf. Voorb
     padding: 15px;
     border-radius: 8px;
     border: 1px solid #ddd;
-">ℹ️Dit is een ingewikkeld programma dat je misschien niet in een keer kan beginnen schrijven. Werk eerst een idee van je code uit op papier. **VOORBEELD PSEUDOCODE?**
+">ℹ️Dit is een ingewikkeld programma dat je misschien niet in een keer kan beginnen schrijven. Werk eerst een idee van je code uit op papier.**
 </div>
 <div style="
     background-color: #daabff;
