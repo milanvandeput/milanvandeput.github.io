@@ -22,6 +22,16 @@ lijst2=[742,-218,-949,-225,377,-923,803,-290]
 lijst3=[1,2,3,4,5,6,7,8,9,10]
 ```
 
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
+
 ### Voorbeeldtesten
 
 | Lijst  | Uitkomst |

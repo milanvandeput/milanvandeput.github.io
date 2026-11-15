@@ -35,6 +35,16 @@ lijst1.sort()
 lijst1=["huis","boom",35]
 len(lijst1)
 ```
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
+
 
 <div style="
     background-color: #daabff;

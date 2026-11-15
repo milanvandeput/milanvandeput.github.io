@@ -27,6 +27,16 @@ lijst2=[3,5,5,5,50,5,2,2,2,7,1]
 lijst3=[10,100,44,22,8,20,33,35,105,70,60,44,42,10]
 ```
 
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
+
 ### Voorbeeldtesten
 
 | Lijst  | Uitkomst |

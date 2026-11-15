@@ -28,6 +28,20 @@ lijst = [311, 527, 349, 59, 811, 573, 951, 96, 583, 290, 122, 104, 975, 751, 675
 - Print dit resultaat.
 
 
-### Voorbeeldtesten
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
-*De uitkomst is 841*
+
+<details>
+<summary>Uitkomst</summary>
+<iframe
+841
+</iframe>
+</details>

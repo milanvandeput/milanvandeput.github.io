@@ -19,7 +19,15 @@ lijst1=[3,4,5,6,2,3,2,2,0,5,51]
 lijst2=[5,5,5,5,5,2,2,2,7]
 lijst3=[10,100,44,22,20,33,35,105,70,60,44,42,10]
 ```
-
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
 ### Voorbeeldtesten
 

@@ -18,3 +18,14 @@ lijst1=["huis","boom",35]
 lijst1.append(67) 
 #lijst1 wordt nu ["huis","boom",35, 67] 
 ```
+
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
+

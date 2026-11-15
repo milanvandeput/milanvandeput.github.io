@@ -35,6 +35,15 @@ posities3 = [[2,7],[8,4],[4,5],[1,3],[2,5],[8,2],[2,3],[4,2]]
 Schrijf een programma dat van een gegeven lijst posities kan berekenen of de koninginnen gelukkig zijn of niet.
 </div>
 
+<details>
+<summary><span style="color: #daabff"><b>Python code uitvoeren 🐍</b></span></summary>
+<iframe
+src="https://www.onlineide.pro/playground/python"
+width="100%"
+height="500"
+frameborder="10">
+</iframe>
+</details>
 
 ### Voorbeeldtesten
 
