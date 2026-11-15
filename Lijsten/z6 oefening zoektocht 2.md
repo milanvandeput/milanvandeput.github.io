@@ -41,7 +41,5 @@ frameborder="10">
 
 <details>
 <summary>Uitkomst</summary>
-<iframe
 2
-</iframe>
 </details>
